@@ -4,12 +4,16 @@
   "description": "Frontend Mentor NFT preview card component challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "sass scss:public/css",
+    "watch-css": "sass --watch scss:public/css"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alvinjohnsonso/fm-nft-preview-card-component.git"
   },
   "author": "Alvin Johnson So",
-  "license": "unlicensed"
+  "license": "unlicensed",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
 }
